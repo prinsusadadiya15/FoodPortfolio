@@ -15,7 +15,7 @@ const Blog = () => {
 
             {blog.map((v, i) => {
                 return (
-                    <div className="container mx-auto mt-[30px]  bg-[rgb(240,243,246)]  px-[130px] pb-[40px]">
+                    <div className="max-w-[1370px] mx-auto mt-[30px]  bg-[rgb(240,243,246)]  px-[130px] pb-[40px]">
                         <div className='flex'>
                             <img src={v.url} className='w-[50%]' alt="" />
                             <div className="right bg-white relative w-[50%]">

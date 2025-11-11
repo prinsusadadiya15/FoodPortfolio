@@ -12,7 +12,7 @@ const Home = () => {
       {/* home  */}
 
       <div className="container mx-auto relative">
-        <img src={MyImg} alt="" />
+        <img className='max-w-[1370px] mx-auto' src={MyImg} alt="" />
         <div className='text-[white] absolute h-full w-full inset-0  text-[20px] '>
           <div className='flex items-center justify-center h-full'>
             <div className='flex items-center flex-col'>

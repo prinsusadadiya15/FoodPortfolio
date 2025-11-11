@@ -16,7 +16,7 @@ const Portfolio = () => {
 
       <div className='logo text-[40px]  pb-[40px] text-center pt-[100px]'>PORTFOLIO</div>
 
-      <div className="container mx-auto sm:flex gap-2">
+      <div className="max-w-[1440px] mx-auto sm:flex gap-2">
         {data.map((v, i) => {
           return (
 

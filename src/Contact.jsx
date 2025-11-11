@@ -10,7 +10,7 @@ const Contact = () => {
             <Navbar />
 
             {/* contact  */}
-            <div className='sm:flex container mx-auto pt-[100px]'>
+            <div className='sm:flex max-w-[1370px] mx-auto pt-[100px]'>
                 <img src={ContactImg} alt="" className='sm:w-[50%]' />
                 <div className='bg-gray-200 sm:w-[50%] sm:ps-[90px] sm:px-[0px] px-[30px]'>
                     <h1 className='text-[40px] logo text-[rgb(48,49,49)] sm:pt-[125px] pt-[60px]  '>

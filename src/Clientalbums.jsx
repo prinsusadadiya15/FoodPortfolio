@@ -11,7 +11,7 @@ const Clientalbums = () => {
             <div className="container-fluid pt-[100px]">
                 <h1 className='logo text-[40px] text-center'>CLIENT ALBUMS</h1>
             </div>
-            <div className="container mx-auto sm:flex gap-2">
+            <div className="max-w-[1370px] mx-auto sm:flex gap-2">
                 {clientdata.map((v, i) => {
                     return (
                         <div className='flex pt-[30px] gap-2 justify-center container mx-auto sm:pb-[35px] relative transform transition duration-500 hover:scale-98'>

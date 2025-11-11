@@ -10,8 +10,8 @@ const About = () => {
       <Navbar />
 
       {/* about  */}
-      <div className='lg:flex  container mx-auto pt-[100px]'>
-        <img src={Myimg} alt="" className='lg:w-[50%] w-full' />
+      <div className='lg:flex max-w-[1370px] mx-auto pt-[100px]'>
+        <img src={Myimg} alt="" className='lg:w-[50%] w-full ' />
         <div className='bg-gray-200 lg:w-[50%] w-full lg:ps-[90px] ps-[25px] pe-[25px] sm:pb-[0px] pb-[70px] '>
           <h1 className='text-[40px] logo text-[rgb(48,49,49)] lg:pt-[125px] pt-[60px]'>ABOUT JADE</h1><br />
           <p className='w-[410px] text-[16px] text-[rgb(48,49,49)]'>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. Feel free to drag and drop me anywhere you like on your page.</p><br />
