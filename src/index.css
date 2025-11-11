@@ -1,0 +1,45 @@
+@import "tailwindcss";
+ @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+/* navbar  */
+
+.logo{
+      font-family: "Cinzel", serif;
+}
+
+.navbar a {
+    font-family: serif;
+}
+
+/* home  */
+.bg-text{
+    font-family: "Cinzel", serif;
+}
+.btn1{
+    padding:6px 30px;
+    border:1px solid white;
+    color:white;
+    margin-top: 20px;
+}
+.btn1:hover{
+    background-color: black;
+    border: none;
+}
+/* PORTFOILO */
+.bg-img{
+    background-image: url('../img/portfoliobox1.avif');
+}
+
+
+/* contact  */
+.cnt-btn{
+    padding: 6px 30px;
+    border: 1px solid black;
+}
+@media (max-width: 640px){
+    .cnt-btn{
+        width: 100%;
+    }
+    
+}
+
